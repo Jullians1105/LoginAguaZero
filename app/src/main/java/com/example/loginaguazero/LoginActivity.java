@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         usuario=(EditText) findViewById(R.id.txtusuario);
         clave=(EditText) findViewById(R.id.txtcalve);
         lblregistrar=(TextView) findViewById(R.id.lblregistrar);
-        btnregistrar=(Button) findViewById(R.id.btnregistrar);
+//        btnregistrar=(Button) findViewById(R.id.btnregistrar);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
